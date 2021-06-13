@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingVertical="40dp"
+    tools:context=".Dolap">
+
+    <Button
+        android:id="@+id/btn_addDrawer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="add drawer" />
+
+    <EditText
+        android:id="@+id/editTextDrawerName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="drawer name"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textListViewTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F3AFAF"
+
+        android:text="List of Drawers"
+        android:textAlignment="center"
+        android:textColor="#151414"
+        android:textSize="16sp" />
+
+    <ListView
+        android:id="@+id/ListViewDrawers"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

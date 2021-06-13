@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">final_project</string>
+    <string name="dolap">Dolap</string>
+    <string name="kabin">Kabin</string>
+    <string name="activity">Etkinlik</string>
+    <string name="kombin">Kombin</string>
+</resources>
